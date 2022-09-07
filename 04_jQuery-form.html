@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js" integrity="sha512-CX7sDOp7UTAq+i1FYIlf9Uo27x4os+kGeoT7rgwvY+4dmjqV0IuE/Bl5hVsjnQPQiTOhAX1O2r2j5bjsFBvv/A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="./scripts/04_jQuery-form.js"></script>
+    <title>jQuery Example 2: Form + Ajax</title>
+</head>
+<body>
+    <h1>jQuery Example 2: Form + Ajax</h1>
+    <h2>Show and movie query</h2>
+    <!-- With TinyApp is you would use these to fetch info from the server -->
+    <form action="#" method="GET">
+        <!-- Create an event listener for when the form gets 'submitted' -->
+        <label for="api-search-field">Enter a show/movie here:</label>
+        <input id="api-search-field" type="search">
+        <input type="submit" value="Search">
+    </form>
+    <h3>Search Results</h3>
+    <ul id="search-results"></ul>
+</body>
+</html>
