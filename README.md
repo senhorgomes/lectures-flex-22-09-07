@@ -216,32 +216,3 @@ $(document).ready(() => {
 * [W3Schools: AJAX Introduction](https://www.w3schools.com/xml/ajax_intro.asp) / [MDN: XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest)
 * [W3Schools: JavaScript HTML DOM](https://www.w3schools.com/js/js_htmldom.asp) /  [MDN: Document Object Model (DOM)](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
 
-Spoonacular Api
-
-Weather Api
-
-We only can do GET requests
-
-AJAX (Asynchronous JavaScript and XML)
-
-Microsoft created this
-Can we force people to load data them selves?
-You ask for data from another server without refreshing your page
-Ask for data anytime
-
-Anyone that is using javascript can make the call, now we only use fetch, but you can still grab information from the browser and anywhere else.
-We are going to learn how to do it using the fetch API
-
-But we aren't going to be using the fetch api
-jQuery 
-
-Show how scripts work
-
-google jQuery ajax(grab datas)
-
-Cool thing about the ajax call, is that this converts it to json for us, we don't have to mess around with it!
-
-
-$.get() is just a short hand for $.ajax()
-You can do alot more with $.ajax() but if youre looking to only retreive data, you're in the good
-
